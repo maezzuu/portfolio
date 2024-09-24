@@ -1,0 +1,267 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    cursor: url('../img/circle.png'), auto !important;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.gnb {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.gnb li {
+    width: 100%;
+    line-height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.gnb li a {
+    display: inline-block;
+    width: 100%;
+}
+
+.gnb .on {
+    background-color: #F0EADE;
+    position: relative;
+}
+
+.gnb .on::before {
+    position: absolute;
+    content: '';
+    top: 38%;
+    left: 33%;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+/* header */
+
+
+.intro_img {
+    position: relative;
+    z-index: 999;
+}
+
+#gnb01 {
+    margin-top: 100px;
+    height: 80vh;
+}
+
+#gnb01 .intro_img img {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    object-fit: cover;
+    animation: imgleft 1s forwards;
+    opacity: 0;
+}
+
+/* 오른쪽에서 왼쪽으로 나타나는 이미지 슬라이드 애니메이션 */
+@keyframes imgleft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.gnb01_title {
+    position: relative;
+    z-index: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 100px;
+    height: 300px;
+    line-height: 300px;
+    padding-right: 200px;
+    text-align: right;
+    letter-spacing: -8px;
+    border-bottom: 1px solid black
+}
+
+.gnb01_title span {
+    box-sizing: none;
+}
+
+.gnb01_title span:first-child {
+    color: #D98F21;
+}
+
+.gnb01_text p {
+    padding: 80px 200px 0;
+    font-size: 24px;
+    float: right;
+    line-height: 50px;
+}
+
+.gnb01_text strong {
+    color: #D98F21;
+    font-size: 30px;
+    letter-spacing: 2;
+}
+
+/* section01 gnb01 인트로에 보이는 화면 */
+
+.scroll_img {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.scroll_img img {
+    width: 50px;
+    height: 50px;
+    animation: scroll 2s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translatey(0);
+    }
+
+    50% {
+        transform: translatey(20px);
+    }
+
+    100% {
+        transform: translatey(0);
+    }
+}
+
+/* 스크롤이미지 */
+
+.gnb_flex {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.sub_title {
+    height: 100%;
+    position: relative;
+    padding-top: 200px;
+    width: 33.3%;
+    border-right: 1px solid black;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 24px;
+}
+.first_title{
+    border-top: 1px solid black;
+}
+
+.sub_title .title {
+    font-size: 100px;
+}
+
+
+.sub_title .title span {
+    color: #D98F21;
+}
+
+.sub_title .view_more {
+    position: relative;
+    margin-top: 30px;
+}
+
+.sub_title .view_more::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 33%;
+    height: 1px;
+    width: 30px;
+    background-color: #000000;
+    transition: transform 0.3s ease; 
+}
+.view_more:hover::before {
+    transform: translateY(-50%) translateX(10px);
+}
+.contents {
+    width: 66.7%;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.contents ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.contents li {
+    width: 50%;
+    padding: 70px;
+    border: 1px solid black;
+    line-height: 40px;
+    font-size: 24px;
+}
+.contents li .content {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contents li .content span {
+    color: #D98F21;
+}
+.skill_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skill_flex p {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:500%;
+}
+
+.skill_flex p:hover {
+    background-color:#F0EADE;
+    border: none;
+    transition: all 0.3s;
+}
+.edu_flex {
+    display: flex;
+    margin-bottom: 30px;
+}
+.edu_flex dt {
+    width: 25%
+}
+
+/* section gnb01_01 - aboutme */
