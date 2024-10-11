@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', setActiveNav);
     setActiveNav(); // 페이지 로드 시 초기 설정
 });
+
+
