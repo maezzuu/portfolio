@@ -51,7 +51,7 @@ header {
     position: absolute;
     content: '';
     top: 38%;
-    left: 33%;
+    left: 27%;
     width: 24px;
     height: 24px;
     border-radius: 50px;
@@ -167,13 +167,15 @@ header {
     width: 100%;
     height: auto;
     justify-content: space-between;
+    position: relative;
 }
 
 .sub_title {
     height: 100%;
-    position: relative;
+    position: sticky;
+    top: 100px;
     padding-top: 200px;
-    width: 33.3%;
+    width: 25%;
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 24px;
@@ -192,16 +194,16 @@ header {
     color: #D98F21;
 }
 
-.sub_title .view_more {
+.sub_title .view_more a {
     position: relative;
     margin-top: 30px;
 }
 
-.sub_title .view_more::before {
+.sub_title .view_more a::before {
     position: absolute;
     content: '';
     top: 50%;
-    left: 33%;
+    left: -45%;
     height: 1px;
     width: 30px;
     background-color: #000000;
@@ -211,7 +213,7 @@ header {
     transform: translateY(-50%) translateX(10px);
 }
 .contents {
-    width: 66.7%;
+    width: 75%;
     height: auto;
 }
 .contents ul {
@@ -390,6 +392,7 @@ header {
     top: 100px;
 }
 .content_text {
+    width: 100%;
     margin-top: 180px;
     margin-right: 50px;
 }
@@ -442,7 +445,7 @@ header {
     margin-bottom: 30px;
 }
 .content_link {
-    width: 230px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     float: right;
@@ -485,6 +488,34 @@ header {
 }
 /* section gnb02 - project */
 
-/* section gnb03 - contact */
+/* section gnb03 - design */
+#gnb03 .content_text {
+    margin-left: 80px;
+}
+/* section gnb03 - design */
 
-/* section gnb03 - contact */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper-wrapper {
+    margin: 50px 80px;
+    transition: transform 0.8s ease;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
