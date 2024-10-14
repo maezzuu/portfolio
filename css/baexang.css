@@ -1,0 +1,75 @@
+body {
+    margin: 100px 200px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin: 50px 0;
+    color: #D98F21;
+}
+h3 {
+    margin-bottom: 50px;
+}
+h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+section {
+    margin: 25px auto;
+    background-color: #ececec;
+    padding: 50px;
+}
+#section01,
+#section07 {
+    background-color: white;
+    padding: 0;
+}
+.img01 {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.img02 {
+    width: 28%;
+}
+.img03 {
+    width: 31%;
+}
+.flex p {
+    font-size: 18px;
+    line-height: 2;
+}
+.img04 {
+    width: 60%;
+}
+.img05 {
+    width: 30%;
+}
+.img06 {
+    width: 20%;
+}
+.img07 {
+    width: 20%;
+}
+.img08 {
+    width: 8%;
+}
+.img09 {
+    width: 8%;
+}
+.text_flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img10 {
+    width: 50%;
+}
+.img11 {
+    width: 10%;
+}

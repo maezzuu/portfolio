@@ -486,6 +486,8 @@ header {
 .project_cont {
     height: 550px;
 }
+
+
 /* section gnb02 - project */
 
 /* section gnb03 - design */
@@ -500,11 +502,11 @@ header {
     height: 100%;
     position: relative;
   }
-  .swiper-wrapper {
+.swiper-wrapper {
     margin: 50px 80px;
     transition: transform 0.8s ease;
   }
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
