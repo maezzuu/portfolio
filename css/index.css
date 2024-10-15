@@ -118,7 +118,7 @@ header {
 }
 
 .gnb01_text p {
-    padding: 80px 200px 0;
+    padding: 80px 140px 0;
     font-size: 24px;
     float: right;
     line-height: 50px;
@@ -196,17 +196,23 @@ header {
 }
 
 .sub_title .view_more a {
+    cursor: pointer;
     position: relative;
     margin-top: 30px;
+    font-size: 16px;
+    font-family: "Pretendard Variable"
 }
-
+.sub_title .view_more a:hover {
+    color: #D98F21;
+    transition: all 0.3s;
+}
 .sub_title .view_more a::before {
     position: absolute;
     content: '';
     top: 50%;
-    left: -45%;
+    left: -50%;
     height: 1px;
-    width: 30px;
+    width: 20px;
     background-color: #000000;
     transition: transform 0.3s ease;
 }
@@ -258,9 +264,10 @@ header {
 
 .skill_flex {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .skill_flex p {
@@ -539,9 +546,10 @@ header {
 /* section gnb02 - project */
 
 /* section gnb03 - design */
-#gnb03 .contents{
+#gnb03 .contents {
     padding-bottom: 50px;
 }
+
 #gnb03 .content_text {
     margin-left: 80px;
 }
@@ -585,19 +593,22 @@ header {
     border-left: 1px solid #000000;
 }
 
-.card > img {
+.card>img {
     width: 45%;
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
+
 #gnb04 .text {
     margin-top: 50px;
     font-size: 20px;
     line-height: 1.4;
 }
+
 #gnb04 .footer .text {
     font-size: 14px;
 }
+
 /* section gnb04- contact */
