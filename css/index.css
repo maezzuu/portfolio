@@ -180,7 +180,8 @@ header {
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 24px;
 }
-.first_title{
+
+.first_title {
     border-top: 1px solid black;
 }
 
@@ -207,20 +208,24 @@ header {
     height: 1px;
     width: 30px;
     background-color: #000000;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
+
 .view_more:hover::before {
     transform: translateY(-50%) translateX(10px);
 }
+
 .contents {
     width: 75%;
     height: auto;
 }
+
 .contents ul {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
 }
+
 .contents li {
     width: 50%;
     padding: 70px;
@@ -230,28 +235,34 @@ header {
     line-height: 40px;
     font-size: 20px;
 }
+
 .contents li:nth-child(4) {
     border-top: none;
 }
+
 .contents li:nth-child(2),
 .contents li:nth-child(4) {
     font-size: 16px;
     font-family: "Pretendard Variable"
 }
+
 .contents li .content {
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 600;
 }
+
 .contents li .content span {
     color: #D98F21;
 }
+
 .skill_flex {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
 .skill_flex p {
     width: 100px;
     height: 100px;
@@ -262,28 +273,30 @@ header {
     align-items: center;
     text-align: center;
     border: 1px solid black;
-    border-radius:500%;
+    border-radius: 500%;
 }
 
 .skill_flex p:hover {
-    background: linear-gradient(to bottom,#ffffff,#f0eade );
+    background: linear-gradient(to bottom, #ffffff, #f0eade);
     transition: all 0.3s;
 }
+
 .edu_flex {
     display: flex;
     margin-bottom: 30px;
 }
+
 .edu_flex dt {
     width: 25%
 }
 
 #gnb02 .sub_title,
-#gnb03 .sub_title{
-    border-top: 1px solid #000000;
+#gnb03 .sub_title {
+    border-top: none;
 }
 
 #gnb02 .contents,
-#gnb03 .contents{
+#gnb03 .contents {
     border-top: 1px solid #000000;
     border-left: 1px solid #000000;
 }
@@ -294,15 +307,18 @@ header {
 #gnb02 {
     height: auto;
 }
+
 /* 목업데스크탑 */
 .mockup {
     position: relative;
     margin: 80px 50px;
 }
-.mockup > img  {
+
+.mockup>img {
     width: 500px;
     height: 500px;
 }
+
 .mockup_img {
     position: absolute;
     overflow-y: auto;
@@ -311,13 +327,16 @@ header {
     width: 420px;
     height: 230px;
 }
+
 .mockup_img img {
     width: 410px;
     height: auto;
 }
+
 .mockup_img::-webkit-scrollbar {
     display: none;
 }
+
 /* 목업데스크탑 */
 
 /* 목업 태블릿 */
@@ -328,27 +347,32 @@ header {
     z-index: 1;
     rotate: 90deg;
 }
-.mockup2 > img  {
+
+.mockup2>img {
     width: 100%;
 }
-.mockup2 > .mockup_img {
+
+.mockup2>.mockup_img {
     position: absolute;
     overflow-y: auto;
     top: -78px;
-    left:-2px;
+    left: -2px;
     width: 280px;
     height: 195px;
     z-index: 1;
     rotate: 270deg;
 
 }
-.mockup2 > .mockup_img img {
+
+.mockup2>.mockup_img img {
     width: 135px;
     height: auto;
 }
-.mockup2 > .mockup_img::-webkit-scrollbar {
+
+.mockup2>.mockup_img::-webkit-scrollbar {
     display: none;
 }
+
 /* 목업 태블릿 */
 
 /* 목업 모바일 */
@@ -359,10 +383,12 @@ header {
     z-index: 1;
 
 }
-.mockup3 > img  {
+
+.mockup3>img {
     width: 200px;
 }
-.mockup3 > .mockup_img {
+
+.mockup3>.mockup_img {
     position: absolute;
     overflow-y: auto;
     top: 20px;
@@ -371,90 +397,108 @@ header {
     height: 160px;
     z-index: 1;
 }
-.mockup3 > .mockup_img img {
+
+.mockup3>.mockup_img img {
     width: 69px;
     height: auto;
 }
-.mockup3 > .mockup_img::-webkit-scrollbar {
+
+.mockup3>.mockup_img::-webkit-scrollbar {
     display: none;
 }
+
 /* 목업 모바일 */
 
 .project_cont {
     display: flex;
     justify-content: center;
 }
-.contents_list{
+
+.contents_list {
     position: relative;
 }
+
 .contents_list .scroll_img {
     position: absolute;
     top: 100px;
 }
+
 .content_text {
     width: 100%;
     margin-top: 180px;
     margin-right: 50px;
 }
+
 .content_text h3 {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .task {
     display: flex;
     gap: 30px;
 }
+
 .day {
     display: inline-block;
     margin: 0 20px 20px 0;
 }
+
 .all {
     background-color: #D98F21;
     color: white;
-    padding:3px 10px;
+    padding: 3px 10px;
     border-radius: 30px;
     margin-right: 5px;
 }
+
 .pc {
     background-color: #E4663E;
     color: white;
-    padding:3px 10px;
+    padding: 3px 10px;
     border-radius: 30px;
     margin-right: 5px;
 }
+
 .tab {
     background-color: #548c52;
     color: white;
-    padding:3px 10px;
+    padding: 3px 10px;
     border-radius: 30px;
     margin-right: 5px;
 }
+
 .mobile {
     background-color: #5768bb;
     color: white;
-    padding:3px 10px;
+    padding: 3px 10px;
     border-radius: 30px;
     margin-right: 5px;
 }
+
 .tag {
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 .text {
     line-height: 2;
     margin-bottom: 30px;
 }
+
 .content_link {
     width: 400px;
     display: flex;
     justify-content: space-between;
     float: right;
 }
+
 .content_link a {
     position: relative;
     display: inline-block;
     padding: 5px;
 }
+
 .content_link a::before {
     position: absolute;
     content: '';
@@ -465,9 +509,11 @@ header {
     background-color: #575757;
     z-index: 1;
 }
+
 .content_link a:hover {
     color: #D98F21;
 }
+
 .content_link a:after {
     position: absolute;
     content: '';
@@ -480,9 +526,11 @@ header {
     transition: all 0.3s;
     opacity: 0;
 }
+
 .content_link a:hover:after {
     opacity: 1;
 }
+
 .project_cont {
     height: 550px;
 }
@@ -491,9 +539,13 @@ header {
 /* section gnb02 - project */
 
 /* section gnb03 - design */
+#gnb03 .contents{
+    padding-bottom: 50px;
+}
 #gnb03 .content_text {
     margin-left: 80px;
 }
+
 /* section gnb03 - design */
 
 
@@ -501,11 +553,13 @@ header {
     width: 100%;
     height: 100%;
     position: relative;
-  }
+}
+
 .swiper-wrapper {
     margin: 50px 80px;
     transition: transform 0.8s ease;
-  }
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -513,11 +567,37 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
+
+/* section gnb04- contact */
+#gnb04 .contents {
+    height: auto;
+    padding: 200px 0 50px 0;
+    text-align: center;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.card > img {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+#gnb04 .text {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+#gnb04 .footer .text {
+    font-size: 14px;
+}
+/* section gnb04- contact */
