@@ -301,6 +301,10 @@ header {
     width: 25%
 }
 
+.intro_text strong {
+    color: #D98F21;
+    font-size: 20px;
+}
 #gnb02 .sub_title,
 #gnb03 .sub_title {
     border-top: none;
@@ -442,7 +446,7 @@ header {
 
 .content_text h3 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .task {
@@ -494,11 +498,11 @@ header {
 
 .text {
     line-height: 2;
-    margin-bottom: 30px;
+    margin: 50px 0;
 }
 
 .content_link {
-    width: 400px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
     float: right;
