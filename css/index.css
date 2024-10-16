@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
     width: 1920px;
 }
-
+a {
+    cursor: pointer !important;
+}
 header {
     width: 1920px;
     position: fixed;
