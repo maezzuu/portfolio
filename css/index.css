@@ -562,6 +562,24 @@ header {
     margin-left: 80px;
 }
 
+.hospital{
+    height: auto;
+}
+
+.hospital_img {
+    gap: 20px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.hospital_img img{
+    width: 400px;
+}
+.cafe_flex {
+    flex-wrap: wrap;
+}
+.cafe_flex img {
+    width: 300px;
+}
 /* section gnb03 - design */
 
 

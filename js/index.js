@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
 document.addEventListener('click', function() {
     let story = document.querySelector('#story');
     let modal = document.querySelector('.modal');
