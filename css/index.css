@@ -574,11 +574,49 @@ header {
 .hospital_img img{
     width: 400px;
 }
-.cafe_flex {
+.dg_flex {
     flex-wrap: wrap;
 }
-.cafe_flex img {
+.dg_flex img {
     width: 300px;
+}
+.dg_flex2,
+.dg_flex3,
+.dg_flex4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    text-align: center;
+}
+.hospital_img .scroll_img {
+    height: 0px;
+}
+.hospital_img .scroll_img img {
+    width: 50px;
+}
+
+.dg_flex4 .mockup {
+    margin: 0;
+}
+.dg_flex4 .mockup>img {
+    width: 510px;
+    height: 500px;
+}
+
+.dg_flex4 .mockup_img {
+    position: absolute;
+    overflow-y: auto;
+    top: 105px;
+    left: 45px;
+    width: 420px;
+    height: 230px;
+}
+
+.dg_flex4 .mockup_img img {
+    width: 410px;
+    height: auto;
 }
 /* section gnb03 - design */
 
